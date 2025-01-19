@@ -1,0 +1,138 @@
+:root {
+  --trump-gold: #FFD700;
+  --trump-red: #FF0000;
+  --dark-blue: #002868;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, var(--dark-blue), #000);
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.trump-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.trump-logo svg {
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.trump-logo h1 {
+  font-size: 3rem;
+  color: var(--trump-gold);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.tagline {
+  font-style: italic;
+  color: #ccc;
+}
+
+.chat-container {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.messages {
+  height: 500px;
+  overflow-y: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.message.user {
+  background: var(--dark-blue);
+  margin-left: auto;
+}
+
+.message.ai {
+  background: var(--trump-red);
+  position: relative;
+}
+
+.message.system {
+  background: var(--trump-gold);
+  color: black;
+  text-align: center;
+  max-width: 100%;
+}
+
+.input-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+textarea {
+  flex: 1;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  resize: none;
+}
+
+textarea:focus {
+  outline: 2px solid var(--trump-gold);
+}
+
+.send-btn {
+  background: var(--trump-gold);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.send-btn:hover {
+  transform: scale(1.1);
+}
+
+.send-btn:active {
+  transform: scale(0.9);
+}
