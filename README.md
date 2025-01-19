@@ -24,7 +24,7 @@
 
 ## 🌟 Overview
 
-**TrumpAI** is an innovative, interactive chat simulation powered by an advanced AI engine that utilizes over **70.000 tweets** from Donald Trump and his family. This platform allows users to engage in realistic, engaging dialogues with personalities etched in history, experiencing authentic interactions that reflect the unique rhetorical style and characteristics of the Trump family.
+**TrumpAI** is an innovative, interactive chat simulation powered by an advanced AI engine that utilizes over **70.000 tweets** from Donald Trump. This platform allows users to engage in realistic, engaging dialogues with personalities etched in history, experiencing authentic interactions that reflect the unique rhetorical style and characteristics of Donald Trump
 
 ---
 
@@ -33,7 +33,7 @@
 - **Authentic Interaction**: Simulate conversations with Donald Trump, Melania Trump, Ivanka Trump, and more, utilizing their distinctive communication styles.
 - **Dynamic AI Responses**: Real-time message generation tailored to user inputs, ensuring an engaging conversational experience.
 - **Contextual Understanding**: The AI maintains conversational context to deliver coherent interactions over multiple exchanges.
-- **Signature Phrases Integration**: Enhance responses with iconic phrases and quips associated with the Trump family, ensuring an immersive experience.
+- **Signature Phrases Integration**: Enhance responses with iconic phrases and quips associated with Donald Trump, ensuring an immersive experience.
 - **Mobile and Desktop Compatibility**: Fully responsive design to ensure accessibility across all devices.
 
 ---
@@ -56,7 +56,7 @@
 
 ### Data Utilization
 
-- **Dataset**: The AI model is trained and finetuned on a comprehensive dataset of **70.000 tweets**, capturing the linguistic idiosyncrasies and conversational nuances of the Trump family.
+- **Dataset**: The AI model is trained and finetuned on a comprehensive dataset of **70.000 tweets**, capturing the linguistic idiosyncrasies and conversational nuances of Donald Trump
 - **Response Generation**: The AI is adept at producing concise, contextually relevant messages while mimicking the signature speech patterns of Donald Trump.
 
 ### Technical Specifications
@@ -116,7 +116,7 @@ Alter the styles in `styles.css` to personalize the appearance of the chat inter
 ### Adding New Features
 
 1. **Enhance the AI's Personality**: Introduce new phrases and patterns to further enrich the conversational experience.
-2. **Additional Family Members**: Integrate more personas into the chat by tweaking the API prompts.
+2. **Additional  Members**: Integrate more personas into the chat by tweaking the API prompts and sourcing more data.
 
 ---
 
